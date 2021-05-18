@@ -1,0 +1,151 @@
+*{
+    font-family: 'KoHo', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: white;
+}
+.navbar-nav{
+margin-left:auto;
+}
+.nav-item{
+    
+padding: 0px 10px;
+letter-spacing: 2px;
+}
+.imgset{
+    width: 650px;
+    height: 500px;
+   
+    
+}
+.ourmargin{
+    padding: 50px 0px;
+    margin-bottom: 50px;
+    background-color: rgb(0, 0, 0);
+}
+.imgsett{
+    text-align: center;
+}
+.inputset{
+    margin: 3px 3px;
+    padding-top: 3px;
+}
+.inputtext{
+    height: 50px;
+    width: 100px;
+    margin: 5px 5px;
+    justify-content: center;
+    align-items: center;
+    
+    border: 2px solid whitesmoke ;
+}
+
+.box{
+ 
+   margin: 20px 10px;
+   height: 500px;
+   width: 500px;
+   /* border:1px solid rgb(255, 47, 47); */
+
+}
+.flex-container{
+    
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   
+}
+.h2set{
+    margin: 20px;
+}
+.box img{
+    padding:10px
+}
+.content{
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+.service_box{
+    padding: 20px 30px;
+     background-color: lightgray;
+    box-shadow: 0px 80px 100px 0px rgb(64 1 4 / 10%), 0px -6px 0px 0px rgb(248 99 107 / 0%);
+    margin: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.sett{
+    padding-bottom: 5rem;
+}
+.settitle{
+    padding-top: 3rem;
+}
+.service{
+    background-color: rgb(29, 26, 26);
+}
+.ph4{
+    margin: 0px 0px 15px;
+}
+.ph3{
+    margin: 0px 0px 20px;
+    padding: 10px 0px;
+}
+.txtmap{
+    background-color: transparent;
+    border: 2px solid lightgray;
+    color: white;
+    height: 40px;
+    margin: 10px;
+   
+}
+.mapbox{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.btnset{
+    border: 1px solid white;
+    margin: 0px auto 0px auto ;
+}
+.ctn_box{
+    padding: 20px 30px;
+     background-color: transparent;
+    box-shadow: 0px 80px 100px 0px rgb(64 1 4 / 10%), 0px -6px 0px 0px rgb(248 99 107 / 0%);
+    margin: 10px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    color:white;
+    margin-top: 50px;
+}
+.widget_social{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+  
+}
+.footer_social{
+    display: flex;
+    list-style: none;
+    margin-left: 10px;
+    
+}
+.footer_section{
+   
+    border-top: 1px solid white;
+    background-color: rgb(29, 26, 26);
+
+}
+.row{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+body[data-aos-duration='4000'] [data-aos],
+[data-aos][data-aos][data-aos-duration='4000'] {
+  transition-duration: 2000ms;
+}
+
